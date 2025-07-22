@@ -1,688 +1,886 @@
-[
-  {
-    "stationName": "Addison Road-Seat Pleasant",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Anacostia",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Archives-Navy Memorial-Penn Quarter",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Arlington Cemetery",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Ashburn",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Ballston-MU",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Benning Road",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Bethesda",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Braddock Road",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Branch Ave",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Brookland-CUA",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Capitol Heights",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Capitol South",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Cheverly",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Clarendon",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Cleveland Park",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "College Park-U of Md",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Columbia Heights",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Congress Heights",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Court House",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Crystal City",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Deanwood",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Downtown Largo",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Dunn Loring-Merrifield",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Dupont Circle",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "East Falls Church",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Eastern Market",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Eisenhower Avenue",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Farragut North",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Farragut West",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Federal Center SW",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Federal Triangle",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Foggy Bottom-GWU",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Forest Glen",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Fort Totten",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Franconia-Springfield",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Friendship Heights",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Gallery Pl-Chinatown",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Georgia Ave-Petworth",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Glenmont",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Greenbelt",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Greensboro",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Grosvenor-Strathmore",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Herndon",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Huntington",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Hyattsville Crossing",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Innovation Center",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Judiciary Square",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "King St-Old Town",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "L'Enfant Plaza",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Landover",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Loudoun Gateway",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "McLean",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "McPherson Square",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Medical Center",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Metro Center",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Minnesota Ave",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Morgan Boulevard",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Mt Vernon Sq 7th St-Convention Center",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Navy Yard-Ballpark",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Naylor Road",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "New Carrollton",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "NoMa-Gallaudet U",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "North Bethesda",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Pentagon",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Pentagon City",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Potomac Ave",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Potomac Yard",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Reston Town Center",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Rhode Island Ave-Brentwood",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Rockville",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Ronald Reagan Washington National Airport",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Rosslyn",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Shady Grove",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Shaw-Howard U",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Silver Spring",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Smithsonian",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Southern Avenue",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Spring Hill",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Stadium-Armory",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Suitland",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Takoma",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Tenleytown-AU",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Twinbrook",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Tysons",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "U Street/African-Amer Civil War Memorial/Cardozo",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Union Station",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Van Dorn Street",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Van Ness-UDC",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Vienna/Fairfax-GMU",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Virginia Square-GMU",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Washington Dulles International Airport",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Waterfront",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "West Falls Church",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "West Hyattsville",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Wheaton",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Wiehle-Reston East",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  },
-  {
-    "stationName": "Woodley Park-Zoo/Adams Morgan",
-    "x": 0,
-    "y": 0,
-    "labelX": 0,
-    "labelY": 0
-  }
-]
+{
+  "data": [
+    {
+      "stationName": "Addison Road-Seat Pleasant",
+      "x": 0.875,
+      "y": 0.555,
+      "labelX": 0,
+      "labelY": 0.075,
+      "labelTheta": 1,
+      "size": "small"
+    },
+    {
+      "stationName": "Anacostia",
+      "x": 0.693,
+      "y": 0.667,
+      "labelX": -0.04,
+      "labelY": 0.11,
+      "labelTheta": -0.8,
+      "size": "small"
+    },
+    {
+      "stationName": "Archives-Navy Memorial-Penn Quarter",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Arlington Cemetery",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Ashburn",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Ballston-MU",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Benning Road",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Bethesda",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Braddock Road",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Branch Ave",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Brookland-CUA",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Capitol Heights",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Capitol South",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Cheverly",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Clarendon",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Cleveland Park",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "College Park-U of Md",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Columbia Heights",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Congress Heights",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Court House",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Crystal City",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Deanwood",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Downtown Largo",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Dunn Loring-Merrifield",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Dupont Circle",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "East Falls Church",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Eastern Market",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Eisenhower Avenue",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Farragut North",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Farragut West",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Federal Center SW",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Federal Triangle",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Foggy Bottom-GWU",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Forest Glen",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Fort Totten",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Franconia-Springfield",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Friendship Heights",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Gallery Pl-Chinatown",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Georgia Ave-Petworth",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Glenmont",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Greenbelt",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Greensboro",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Grosvenor-Strathmore",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Herndon",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Huntington",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Hyattsville Crossing",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Innovation Center",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Judiciary Square",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "King St-Old Town",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "L'Enfant Plaza",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Landover",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Loudoun Gateway",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "McLean",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "McPherson Square",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Medical Center",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Metro Center",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Minnesota Ave",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Morgan Boulevard",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Mt Vernon Sq 7th St-Convention Center",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Navy Yard-Ballpark",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Naylor Road",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "New Carrollton",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "NoMa-Gallaudet U",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "North Bethesda",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Pentagon",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Pentagon City",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Potomac Ave",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Potomac Yard",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Reston Town Center",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Rhode Island Ave-Brentwood",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Rockville",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Ronald Reagan Washington National Airport",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Rosslyn",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Shady Grove",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Shaw-Howard U",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Silver Spring",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Smithsonian",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Southern Avenue",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Spring Hill",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Stadium-Armory",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "large"
+    },
+    {
+      "stationName": "Suitland",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Takoma",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Tenleytown-AU",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Twinbrook",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Tysons",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "U Street/African-Amer Civil War Memorial/Cardozo",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Union Station",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Van Dorn Street",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Van Ness-UDC",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Vienna/Fairfax-GMU",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Virginia Square-GMU",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Washington Dulles International Airport",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Waterfront",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "West Falls Church",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "West Hyattsville",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Wheaton",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Wiehle-Reston East",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    },
+    {
+      "stationName": "Woodley Park-Zoo/Adams Morgan",
+      "x": 0,
+      "y": 0,
+      "labelX": 0,
+      "labelY": 0,
+      "labelTheta": 0,
+      "size": "small"
+    }
+  ]
+}
