@@ -32,9 +32,9 @@ function mouseClicked(event) {
   // Determine the acceptable click radius from the center point of the station
   const threshold = currentStation.size == 'large' ? LARGE_STATION_RADIUS : SMALL_STATION_RADIUS;
   // DEV: print that out
-  const debugX = (event.x - threshold/1.3) / MAP_WITH_STATIONS_WIDTH;
-  const debugY = (event.y - threshold/1.3) / MAP_WITH_STATIONS_HEIGHT;
-  console.log('\n"x": ' + debugX.toFixed(3) + ',\n"y": ' + debugY.toFixed(3) + ',')
+  // const debugX = (event.x - threshold/1.3) / MAP_WITH_STATIONS_WIDTH;
+  // const debugY = (event.y - threshold/1.3) / MAP_WITH_STATIONS_HEIGHT;
+  // console.log('\n"x": ' + debugX.toFixed(3) + ',\n"y": ' + debugY.toFixed(3) + ',')
   
   const clickDistance = dist(mouseX, mouseY, widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y))
   if (clickDistance <= threshold) {  
@@ -81,22 +81,44 @@ function getLabelAngleFromDirection(direction) {
   }
 }
 
+function drawLabeledStation(station, success=true) {
+  const [labelX, labelY] = getLabelCoordinatesFromStation(station)
+  push();
+  // draw cirlce over station. Green for success and red for failures
+  if (success) {
+    fill(0, 255, 0);
+  } else {
+    fill(255, 0, 0);
+  }
+  circle(widthFractionToPixel(station.x), heightFractionToPixel(station.y), station.size === 'large' ? 30 : 15)
+  
+  // translate *then* rotate to spin the label text around a central point
+  translate(labelX, labelY) 
+  rotate(getLabelAngleFromDirection(station.labelTheta));
+
+  // write labels
+  textAlign(LEFT);
+  textSize(15);
+  fill(0);
+  text(station.stationName, 0, 0);
+  pop();
+}
+
 function setup() {
   createCanvas(MAP_WITH_STATIONS_WIDTH, MAP_WITH_STATIONS_HEIGHT)
 
   describe('Image of the DC metro map with station icons present but unlabeled');
   
   shuffledStationData = shuffle(stationData.data);
-  // shuffledStationData = stationData.data;
 }
 
 function draw() {
   if (isGameOver) {
     textAlign(CENTER);
     textSize(48);
-    text('That wasn\'t right.', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 3)
+    text('That wasn\'t right.\nRefresh the page to try again.', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 3)
     textSize(600);
-    text('😖', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 2 + 300)
+    text('X', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 2 + 300)
     noLoop();
     return;
   }
@@ -120,23 +142,7 @@ function draw() {
 
   // print labels and mark off found stations
   successfulStations.forEach(station => {
-  // shuffledStationData.forEach(station => { 
-    const [labelX, labelY] = getLabelCoordinatesFromStation(station)
-    push();
-    // mark stations
-    fill(0, 255, 0)
-    circle(widthFractionToPixel(station.x), heightFractionToPixel(station.y), station.size === 'large' ? 30 : 15)
-    
-    // translate *then* rotate to spin text around a central point
-    translate(labelX, labelY) 
-    rotate(getLabelAngleFromDirection(station.labelTheta));
-
-    // write labels
-    textAlign(LEFT);
-    textSize(15);
-    fill(0);
-    text(station.stationName, 0, 0);
-    pop();
+    drawLabeledStation(station);
   })
 
 }
