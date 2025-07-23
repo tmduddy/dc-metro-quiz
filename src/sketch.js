@@ -27,8 +27,12 @@ function preload() {
 
 function mouseClicked(event) {
   const currentStation = shuffledStationData[position];
+  // Determine the acceptable click radius from the center point of the station
   const threshold = currentStation.size == 'large' ? LARGE_STATION_RADIUS : SMALL_STATION_RADIUS;
-  console.log((event.x - threshold/1.3) / MAP_WITH_STATIONS_WIDTH, (event.y - threshold/1.3) / MAP_WITH_STATIONS_HEIGHT)
+  // DEV: print that out
+  const debugX = (event.x - threshold/1.3) / MAP_WITH_STATIONS_WIDTH;
+  const debugY = (event.y - threshold/1.3) / MAP_WITH_STATIONS_HEIGHT;
+  console.log('\n"x": ' + debugX.toFixed(3) + ',\n"y": ' + debugY.toFixed(3) + ',')
   
   const clickDistance = dist(mouseX, mouseY, widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y))
   if (clickDistance <= threshold) {
@@ -42,9 +46,38 @@ function mouseClicked(event) {
 
 function getLabelCoordinatesFromStation(station) {
   const labelX = widthFractionToPixel(station.x) + widthFractionToPixel(station.labelX);
-  const labelY = widthFractionToPixel(station.y) + heightFractionToPixel(station.labelY);
+  const labelY = heightFractionToPixel(station.y) + heightFractionToPixel(station.labelY);
 
+  
   return [labelX, labelY]
+}
+
+/**
+ * converts a cardinal direction into a p5.js rotation 
+ * @param {string} direction 
+ * @returns 
+ */
+function getLabelAngleFromDirection(direction) {
+  switch (direction) {
+    case "N":
+      return -1 * PI/2;
+    case "NE":
+      return -1 * PI/4;
+    case "E":
+      return 0;
+    case "SE":
+      return PI/4;
+    case "S":
+      return PI/2;
+    case "SW":
+      return 3 * PI/4;
+    case "W":
+      return PI;
+    case "NW":
+      return -3 * PI/4;
+    default:
+      return 0;
+  }
 }
 
 function setup() {
@@ -54,26 +87,36 @@ function setup() {
   
   // shuffledStationData = shuffle(stationData.data);
   shuffledStationData = stationData.data;
-  console.log(shuffledStationData);
 }
 
 function draw() {
   const currentStation = shuffledStationData[position];
+  // Draw background map
   image(mapWithStations, 0, 0);
 
+  // Draw current station name
   textAlign(CENTER);
   textSize(36);
   text(currentStation.stationName, MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 10)
 
+  // DEV: highlight active station
   circle(widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y), 15)
 
-  successfulStations.forEach(station => {
+  // print labels and mark off found stations
+  // successfulStations.forEach(station => {
+  shuffledStationData.forEach(station => { 
     const [labelX, labelY] = getLabelCoordinatesFromStation(station)
     push();
-    textAlign(LEFT);
-    textSize(12);
+    // mark stations
+    circle(widthFractionToPixel(station.x), heightFractionToPixel(station.y), station.size === 'large' ? 30 : 15)
+    
+    // translate *then* rotate to spin text around a central point
     translate(labelX, labelY) 
-    rotate(station.labelTheta);
+    rotate(getLabelAngleFromDirection(station.labelTheta));
+
+    // write labels
+    textAlign(LEFT);
+    textSize(15);
     text(station.stationName, 0, 0);
     pop();
   })
