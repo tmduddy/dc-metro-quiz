@@ -12,6 +12,8 @@ let position = 0;
 
 const successfulStations = [];
 
+let isGameOver = false;
+
 function heightFractionToPixel(fraction) {
   return Math.floor(fraction * MAP_WITH_STATIONS_HEIGHT)
 }
@@ -35,12 +37,11 @@ function mouseClicked(event) {
   console.log('\n"x": ' + debugX.toFixed(3) + ',\n"y": ' + debugY.toFixed(3) + ',')
   
   const clickDistance = dist(mouseX, mouseY, widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y))
-  if (clickDistance <= threshold) {
+  if (clickDistance <= threshold) {  
     successfulStations.push(currentStation);
     position += 1;
   } else {
-    console.log('WRONG')
-    position += 1;
+    isGameOver = true;
   }
 }
 
@@ -85,29 +86,45 @@ function setup() {
 
   describe('Image of the DC metro map with station icons present but unlabeled');
   
-  // shuffledStationData = shuffle(stationData.data);
-  shuffledStationData = stationData.data;
+  shuffledStationData = shuffle(stationData.data);
+  // shuffledStationData = stationData.data;
 }
 
 function draw() {
-  const currentStation = shuffledStationData[position];
+  if (isGameOver) {
+    textAlign(CENTER);
+    textSize(48);
+    text('That wasn\'t right.', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 3)
+    textSize(600);
+    text('😖', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 2 + 300)
+    noLoop();
+    return;
+  }
+  const currentStation = shuffledStationData[position % shuffledStationData.length];
+
   // Draw background map
   image(mapWithStations, 0, 0);
 
-  // Draw current station name
+
+  // Draw current station name in a box
   textAlign(CENTER);
-  textSize(36);
+  textSize(40);
+
   text(currentStation.stationName, MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 10)
+  
+  // Draw the current score
+  text(`Score: ${successfulStations.length}/${shuffledStationData.length}`, MAP_WITH_STATIONS_WIDTH / 2, 9.5 * (MAP_WITH_STATIONS_HEIGHT / 10))
 
   // DEV: highlight active station
-  circle(widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y), 15)
+  // circle(widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y), 15)
 
   // print labels and mark off found stations
-  // successfulStations.forEach(station => {
-  shuffledStationData.forEach(station => { 
+  successfulStations.forEach(station => {
+  // shuffledStationData.forEach(station => { 
     const [labelX, labelY] = getLabelCoordinatesFromStation(station)
     push();
     // mark stations
+    fill(0, 255, 0)
     circle(widthFractionToPixel(station.x), heightFractionToPixel(station.y), station.size === 'large' ? 30 : 15)
     
     // translate *then* rotate to spin text around a central point
@@ -117,6 +134,7 @@ function draw() {
     // write labels
     textAlign(LEFT);
     textSize(15);
+    fill(0);
     text(station.stationName, 0, 0);
     pop();
   })
