@@ -1,9 +1,14 @@
+let font;
+
 let mapWithStations;
 const MAP_WITH_STATIONS_WIDTH = 1088;
 const MAP_WITH_STATIONS_HEIGHT = 1216;
 
 const SMALL_STATION_RADIUS = 9;
 const LARGE_STATION_RADIUS = 15;
+
+const TITLE_COORDS = [MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 10];
+const SCORE_COORDS = [MAP_WITH_STATIONS_WIDTH / 2, 9.5 * (MAP_WITH_STATIONS_HEIGHT / 10)];
 
 let stationData;
 let shuffledStationData;
@@ -25,6 +30,7 @@ function widthFractionToPixel(fraction) {
 function preload() {
   mapWithStations = loadImage('../data/images/dc-metro-map-with-stations.png')
   stationData = loadJSON('../data/text/stations.json');
+  font = loadFont('../data/fonts/HelveticaNeueBlack.otf');
 }
 
 function mouseClicked(event) {
@@ -104,6 +110,13 @@ function drawLabeledStation(station, success=true) {
   pop();
 }
 
+function boxedText(content, x, y) {
+  const padding=15;
+  const textBoxBounds = font.textBounds(content, x, y);
+  rect(textBoxBounds.x, textBoxBounds.y-padding, textBoxBounds.w, textBoxBounds.h+padding*2);
+  text(content, x, y);
+}
+
 function setup() {
   createCanvas(MAP_WITH_STATIONS_WIDTH, MAP_WITH_STATIONS_HEIGHT)
 
@@ -113,36 +126,35 @@ function setup() {
 }
 
 function draw() {
+  const currentStation = shuffledStationData[position % shuffledStationData.length];
   if (isGameOver) {
+    drawLabeledStation(currentStation, false)
     textAlign(CENTER);
     textSize(48);
-    text('That wasn\'t right.\nRefresh the page to try again.', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 3)
+    boxedText('That wasn\'t right :( Refresh to try again.', ...TITLE_COORDS);
     textSize(600);
     text('X', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 2 + 300)
     noLoop();
     return;
   }
-  const currentStation = shuffledStationData[position % shuffledStationData.length];
 
   // Draw background map
   image(mapWithStations, 0, 0);
 
-
   // Draw current station name in a box
   textAlign(CENTER);
   textSize(40);
-
-  text(currentStation.stationName, MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 10)
+  boxedText(currentStation.stationName.replaceAll('\n', '-'), ...TITLE_COORDS)
   
   // Draw the current score
-  text(`Score: ${successfulStations.length}/${shuffledStationData.length}`, MAP_WITH_STATIONS_WIDTH / 2, 9.5 * (MAP_WITH_STATIONS_HEIGHT / 10))
+  boxedText(`Score: ${successfulStations.length}/${shuffledStationData.length}`, ...SCORE_COORDS)
 
   // DEV: highlight active station
   // circle(widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y), 15)
 
   // print labels and mark off found stations
   successfulStations.forEach(station => {
-    drawLabeledStation(station);
+    drawLabeledStation(station, true);
   })
 
 }
