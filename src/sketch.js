@@ -134,6 +134,21 @@ function getLabelCoordinatesFromStation(station) {
   return [labelX, labelY];
 }
 
+function drawGameOver(currentStation) {
+  drawLabeledStation(currentStation, false);
+  push();
+  textAlign(CENTER);
+  textSize(48);
+  boxedText("That wasn't right :( Refresh to try again.", ...TITLE_COORDS);
+  textSize(700);
+  fill(255, 0, 0, 100);
+  stroke(0);
+  strokeWeight(7);
+  text('X', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 2 + 300);
+  pop();
+  noLoop();
+}
+
 /**
  * P5.js builtin override for handling clicks. This one calculates if a given click was close enough
  * to the current station's coordinates based on that statements thresholds.
@@ -183,13 +198,7 @@ function setup() {
 function draw() {
   const currentStation = shuffledStationData[position % shuffledStationData.length];
   if (isGameOver) {
-    drawLabeledStation(currentStation, false);
-    textAlign(CENTER);
-    textSize(48);
-    boxedText("That wasn't right :( Refresh to try again.", ...TITLE_COORDS);
-    textSize(600);
-    text('X', MAP_WITH_STATIONS_WIDTH / 2, MAP_WITH_STATIONS_HEIGHT / 2 + 300);
-    noLoop();
+    drawGameOver(currentStation);
     return;
   }
 
