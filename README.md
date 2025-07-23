@@ -1,6 +1,9 @@
 # dc-metro-quiz
 vaguely based on the idea of the Sporcle US Map quiz but for the DC metro
 
+## Where 2 Find
+A basic version of this sketch is now running on the P5.js web editor [here](https://editor.p5js.org/tmduddy/sketches/t8Ldjs6IE)
+
 ## how to run
 - Manually:
 ```sh
