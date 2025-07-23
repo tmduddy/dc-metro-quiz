@@ -2,11 +2,19 @@
 vaguely based on the idea of the Sporcle US Map quiz but for the DC metro
 
 ## how to run
+- Manually:
 ```sh
-cd /src
 python3 -m http.server 8089
 ```
+
+- via npm:
+```sh
+npm run boot
+```
 The site will then be available on localhost:8089
+
+## Configs
+This uses eslint and prettier for linting and formatting.
 
 ## TODO
 - [x] create P5.js canvas and add map background

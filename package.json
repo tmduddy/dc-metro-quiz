@@ -1,0 +1,25 @@
+{
+  "name": "dc-metro-quiz",
+  "version": "1.0.0",
+  "description": "fill in the metro stop kinda quiz",
+  "main": "index.html",
+  "scripts": {
+    "boot": "python3 -m http.server 8089",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmduddy/dc-metro-quiz.git"
+  },
+  "author": "mail@tylerduddy.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmduddy/dc-metro-quiz/issues"
+  },
+  "homepage": "https://github.com/tmduddy/dc-metro-quiz#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0"
+  }
+}
