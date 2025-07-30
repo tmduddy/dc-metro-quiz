@@ -18,7 +18,7 @@
       "labelY": 0.05,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["60", "19"]
     },
     "3": {
       "stationName": "Archives\nNavy Mem'l\nPenn Quarter",
@@ -28,7 +28,7 @@
       "labelY": -0.01,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["38", "50"]
     },
     "4": {
       "stationName": "Arlington Cemetery",
@@ -38,7 +38,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["65", "72"]
     },
     "5": {
       "stationName": "Ashburn",
@@ -48,7 +48,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["52"]
     },
     "6": {
       "stationName": "Ballston-MU",
@@ -58,7 +58,7 @@
       "labelY": 0.06,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["26", "90"]
     },
     "7": {
       "stationName": "Benning Road",
@@ -68,7 +68,7 @@
       "labelY": 0.018,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["12", "79"]
     },
     "8": {
       "stationName": "Bethesda",
@@ -78,7 +78,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["37", "55"]
     },
     "9": {
       "stationName": "Braddock Road",
@@ -88,7 +88,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["49", "71"]
     },
     "10": {
       "stationName": "Branch Ave",
@@ -98,7 +98,7 @@
       "labelY": 0.055,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["80"]
     },
     "11": {
       "stationName": "Brookland-CUA",
@@ -108,7 +108,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["35", "69"]
     },
     "12": {
       "stationName": "Capitol Heights",
@@ -118,7 +118,7 @@
       "labelY": 0.018,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["1", "7"]
     },
     "13": {
       "stationName": "Capitol South",
@@ -128,7 +128,7 @@
       "labelY": 0.018,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["27", "31"]
     },
     "14": {
       "stationName": "Cheverly",
@@ -138,7 +138,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["22", "51"]
     },
     "15": {
       "stationName": "Clarendon",
@@ -148,7 +148,7 @@
       "labelY": 0.054,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["20", "90"]
     },
     "16": {
       "stationName": "Cleveland Park",
@@ -158,7 +158,7 @@
       "labelY": 0.005,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["88", "97"]
     },
     "17": {
       "stationName": "College Park-U of Md",
@@ -168,7 +168,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["41", "46"]
     },
     "18": {
       "stationName": "Columbia Heights",
@@ -178,7 +178,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["39", "85"]
     },
     "19": {
       "stationName": "Congress Heights",
@@ -188,7 +188,7 @@
       "labelY": 0.08,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["2", "77"]
     },
     "20": {
       "stationName": "Court House",
@@ -198,7 +198,7 @@
       "labelY": 0.063,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["15", "72"]
     },
     "21": {
       "stationName": "Crystal City",
@@ -208,7 +208,7 @@
       "labelY": 0.056,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["66", "71"]
     },
     "22": {
       "stationName": "Deanwood",
@@ -218,7 +218,7 @@
       "labelY": 0.005,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["14", "57"]
     },
     "23": {
       "stationName": "Downtown Largo",
@@ -228,7 +228,7 @@
       "labelY": 0.018,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["58"]
     },
     "24": {
       "stationName": "Dunn Loring-Merrifield",
@@ -238,7 +238,7 @@
       "labelY": 0.1,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["89", "93"]
     },
     "25": {
       "stationName": "Dupont Circle",
@@ -248,7 +248,7 @@
       "labelY": 0.0048,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["97", "29"]
     },
     "26": {
       "stationName": "East Falls Church",
@@ -258,7 +258,7 @@
       "labelY": 0.085,
       "labelTheta": "NE",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["6", "53", "93"]
     },
     "27": {
       "stationName": "Eastern Market",
@@ -268,7 +268,7 @@
       "labelY": 0.014,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["13", "67"]
     },
     "28": {
       "stationName": "Eisenhower Avenue",
@@ -278,7 +278,7 @@
       "labelY": 0.0046,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["45", "49"]
     },
     "29": {
       "stationName": "Farragut North",
@@ -288,7 +288,7 @@
       "labelY": 0.0048,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["25", "56"]
     },
     "30": {
       "stationName": "Farragut West",
@@ -298,7 +298,7 @@
       "labelY": 0.075,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["33", "54"]
     },
     "31": {
       "stationName": "Federal Center SW",
@@ -308,7 +308,7 @@
       "labelY": 0.018,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["13", "50"]
     },
     "32": {
       "stationName": "Federal Triangle",
@@ -318,7 +318,7 @@
       "labelY": 0.074,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["56", "76"]
     },
     "33": {
       "stationName": "Foggy\nBottom-GWU",
@@ -328,7 +328,7 @@
       "labelY": 0.058,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["30", "72"]
     },
     "34": {
       "stationName": "Forest Glen",
@@ -338,7 +338,7 @@
       "labelY": 0.0043,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["75", "95"]
     },
     "35": {
       "stationName": "Fort Totten",
@@ -348,7 +348,7 @@
       "labelY": 0.005,
       "labelTheta": "E",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["11", "39", "81", "94"]
     },
     "36": {
       "stationName": "Franconia-Springfield",
@@ -358,7 +358,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["87"]
     },
     "37": {
       "stationName": "Friendship Heights",
@@ -368,7 +368,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["8", "82"]
     },
     "38": {
       "stationName": "Gallery Pl\nChinatown",
@@ -378,7 +378,7 @@
       "labelY": -0.01,
       "labelTheta": "NE",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["3", "48", "56", "59"]
     },
     "39": {
       "stationName": "Georgia Ave\nPetworth",
@@ -388,7 +388,7 @@
       "labelY": -0.06,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["18", "35"]
     },
     "40": {
       "stationName": "Glenmont",
@@ -398,7 +398,7 @@
       "labelY": 0.0043,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["95"]
     },
     "41": {
       "stationName": "Greenbelt",
@@ -408,7 +408,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["17"]
     },
     "42": {
       "stationName": "Greensboro",
@@ -418,7 +418,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["78", "84"]
     },
     "43": {
       "stationName": "Grosvenor-Strathmore",
@@ -428,7 +428,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["55", "64"]
     },
     "44": {
       "stationName": "Herndon",
@@ -438,7 +438,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["47", "68"]
     },
     "45": {
       "stationName": "Huntington",
@@ -448,7 +448,7 @@
       "labelY": 0.0046,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["28"]
     },
     "46": {
       "stationName": "Hyattsville Crossing",
@@ -458,7 +458,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["17", "94"]
     },
     "47": {
       "stationName": "Innovation Center",
@@ -468,7 +468,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["44", "91"]
     },
     "48": {
       "stationName": "Judiciary Sq.",
@@ -478,7 +478,7 @@
       "labelY": -0.005,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["38", "86"]
     },
     "49": {
       "stationName": "King St-Old Town",
@@ -488,7 +488,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["9", "28", "87"]
     },
     "50": {
       "stationName": "L'Enfant Plaza",
@@ -498,7 +498,7 @@
       "labelY": 0.07,
       "labelTheta": "NE",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["3", "31", "65", "76", "92"]
     },
     "51": {
       "stationName": "Landover",
@@ -508,7 +508,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["14", "62"]
     },
     "52": {
       "stationName": "Loudoun Gateway",
@@ -518,7 +518,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["5", "91"]
     },
     "53": {
       "stationName": "McLean",
@@ -528,7 +528,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["26", "84"]
     },
     "54": {
       "stationName": "McPherson\nSquare",
@@ -538,7 +538,7 @@
       "labelY": -0.005,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["30", "56"]
     },
     "55": {
       "stationName": "Medical Center",
@@ -548,7 +548,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["8", "43"]
     },
     "56": {
       "stationName": "Metro Center",
@@ -558,7 +558,7 @@
       "labelY": 0.065,
       "labelTheta": "NE",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["29", "32", "38", "54"]
     },
     "57": {
       "stationName": "Minnesota Ave",
@@ -568,7 +568,7 @@
       "labelY": 0.005,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["22", "79"]
     },
     "58": {
       "stationName": "Morgan Boulevard",
@@ -578,7 +578,7 @@
       "labelY": 0.018,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["1", "23"]
     },
     "59": {
       "stationName": "Mt Vernon Sq-7 St-Conv. Ctr",
@@ -588,7 +588,7 @@
       "labelY": -0.003,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["38", "74"]
     },
     "60": {
       "stationName": "Navy Yard-Ballpark",
@@ -598,7 +598,7 @@
       "labelY": 0.086,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["2", "92"]
     },
     "61": {
       "stationName": "Naylor Road",
@@ -608,7 +608,7 @@
       "labelY": 0.058,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["77", "80"]
     },
     "62": {
       "stationName": "New Carrollton",
@@ -618,7 +618,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["51"]
     },
     "63": {
       "stationName": "NoMa-Gallaudet U",
@@ -628,7 +628,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["69", "86"]
     },
     "64": {
       "stationName": "North Bethesda",
@@ -638,7 +638,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["43", "83"]
     },
     "65": {
       "stationName": "Pentagon",
@@ -648,7 +648,7 @@
       "labelY": 0.053,
       "labelTheta": "NE",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["4", "50", "66"]
     },
     "66": {
       "stationName": "Pentagon City",
@@ -658,7 +658,7 @@
       "labelY": 0.065,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["21", "65"]
     },
     "67": {
       "stationName": "Potomac Ave",
@@ -668,7 +668,7 @@
       "labelY": 0.014,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["27", "79"]
     },
     "68": {
       "stationName": "Reston Town Center",
@@ -678,7 +678,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["44", "96"]
     },
     "69": {
       "stationName": "Rhode Island Ave-Brentwood",
@@ -688,7 +688,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["11", "63"]
     },
     "70": {
       "stationName": "Rockville",
@@ -698,7 +698,7 @@
       "labelY": 0.005,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["73", "83"]
     },
     "71": {
       "stationName": "Ronald Reagan\nWash. Nat'l Airp",
@@ -708,7 +708,7 @@
       "labelY": -0.005,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["9", "21"]
     },
     "72": {
       "stationName": "Rosslyn",
@@ -718,7 +718,7 @@
       "labelY": 0.0048,
       "labelTheta": "E",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["4", "20", "33"]
     },
     "73": {
       "stationName": "Shady Grove",
@@ -728,7 +728,7 @@
       "labelY": 0.005,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["70"]
     },
     "74": {
       "stationName": "Shaw\nHoward U",
@@ -738,7 +738,7 @@
       "labelY": -0.007,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["59", "85"]
     },
     "75": {
       "stationName": "Silver Spring",
@@ -748,7 +748,7 @@
       "labelY": 0.0043,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["34", "81"]
     },
     "76": {
       "stationName": "Smithsonian",
@@ -758,7 +758,7 @@
       "labelY": 0.058,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["32", "50"]
     },
     "77": {
       "stationName": "Southern Avenue",
@@ -768,7 +768,7 @@
       "labelY": 0.078,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["19", "61"]
     },
     "78": {
       "stationName": "Spring Hill",
@@ -778,7 +778,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["42", "96"]
     },
     "79": {
       "stationName": "Stadium-Armory",
@@ -788,7 +788,7 @@
       "labelY": 0.014,
       "labelTheta": "SE",
       "size": "large",
-      "neighbors": []
+      "neighbors": ["7", "57", "67"]
     },
     "80": {
       "stationName": "Suitland",
@@ -798,7 +798,7 @@
       "labelY": 0.04,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["10", "61"]
     },
     "81": {
       "stationName": "Takoma",
@@ -808,7 +808,7 @@
       "labelY": 0.0043,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["35", "75"]
     },
     "82": {
       "stationName": "Tenleytown-AU",
@@ -818,7 +818,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["37", "88"]
     },
     "83": {
       "stationName": "Twinbrook",
@@ -828,7 +828,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["64", "70"]
     },
     "84": {
       "stationName": "Tysons",
@@ -838,7 +838,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["42", "53"]
     },
     "85": {
       "stationName": "U Street\nCardozo",
@@ -848,7 +848,7 @@
       "labelY": -0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["18", "74"]
     },
     "86": {
       "stationName": "Union Station",
@@ -858,7 +858,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["48", "63"]
     },
     "87": {
       "stationName": "Van Dorn Street",
@@ -868,7 +868,7 @@
       "labelY": -0.069,
       "labelTheta": "SE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["36", "49"]
     },
     "88": {
       "stationName": "Van Ness-UDC",
@@ -878,7 +878,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["16", "82"]
     },
     "89": {
       "stationName": "Vienna/Fairfax-GMU",
@@ -888,7 +888,7 @@
       "labelY": 0.093,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["24"]
     },
     "90": {
       "stationName": "Virginia Square-GMU",
@@ -898,7 +898,7 @@
       "labelY": 0.1,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["6", "15"]
     },
     "91": {
       "stationName": "Washington Dulles\nInt'l Airport",
@@ -908,7 +908,7 @@
       "labelY": -0.008,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["47", "52"]
     },
     "92": {
       "stationName": "Waterfront",
@@ -918,7 +918,7 @@
       "labelY": 0.05,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["50", "60"]
     },
     "93": {
       "stationName": "West Falls Church",
@@ -928,7 +928,7 @@
       "labelY": 0.083,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["24", "26"]
     },
     "94": {
       "stationName": "West Hyattsville",
@@ -938,7 +938,7 @@
       "labelY": 0.0045,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["35", "46"]
     },
     "95": {
       "stationName": "Wheaton",
@@ -948,7 +948,7 @@
       "labelY": 0.0043,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["34", "40"]
     },
     "96": {
       "stationName": "Wiehle-Reston East",
@@ -958,7 +958,7 @@
       "labelY": -0.0045,
       "labelTheta": "NE",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["68", "78"]
     },
     "97": {
       "stationName": "Woodley Park-Zoo/Adams Morgan",
@@ -968,7 +968,7 @@
       "labelY": 0.0046,
       "labelTheta": "E",
       "size": "small",
-      "neighbors": []
+      "neighbors": ["16", "25"]
     }
   }
 }
