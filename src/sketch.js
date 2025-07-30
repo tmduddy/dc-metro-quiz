@@ -17,7 +17,8 @@ const SCORE_COORDS = [MAP_WITH_STATIONS_WIDTH / 2, 9.5 * (MAP_WITH_STATIONS_HEIG
 
 // Store global station data as loaded from the json, and the associated shuffled data.
 let stationData;
-let shuffledStationData;
+let stationArray;
+let shuffledStationArray;
 
 /**
  * This is the current index of the shuffled array. It gets modded with array length to allow for looping back
@@ -85,8 +86,9 @@ function getLabelAngleFromDirection(direction) {
  * @param {Record<String, String>} station
  * @param {Boolean} success
  */
-function drawLabeledStation(station, success = true) {
+function drawLabeledStation(station, success = true, id = 0) {
   const [labelX, labelY] = getLabelCoordinatesFromStation(station);
+  const labelText = id ? `${id} - ${station.stationName}` : station.stationName;
 
   push();
   // draw cirlce over station. Green for success and red for failures
@@ -105,7 +107,7 @@ function drawLabeledStation(station, success = true) {
   textAlign(LEFT);
   textSize(15);
   fill(0);
-  text(station.stationName, 0, 0);
+  text(labelText, 0, 0);
   pop();
 }
 
@@ -156,7 +158,7 @@ function drawGameOver(currentStation) {
  */
 // eslint-disable-next-line no-unused-vars -- P5.js builtin
 function mouseClicked() {
-  const currentStation = shuffledStationData[position];
+  const currentStation = shuffledStationArray[position];
   // Determine the acceptable click radius from the center point of the station
   const threshold = currentStation.size == 'large' ? LARGE_STATION_RADIUS : SMALL_STATION_RADIUS;
   // DEV: print that out
@@ -188,15 +190,16 @@ function preload() {
 // eslint-disable-next-line no-unused-vars -- P5.js builtin
 function setup() {
   createCanvas(MAP_WITH_STATIONS_WIDTH, MAP_WITH_STATIONS_HEIGHT);
-
+  
   describe('Image of the DC metro map with station icons present but unlabeled');
-
-  shuffledStationData = shuffle(stationData.data);
+  
+  stationArray = Object.values(stationData.data);
+  shuffledStationArray = shuffle(stationArray);
 }
 
 // eslint-disable-next-line no-unused-vars -- P5.js builtin
 function draw() {
-  const currentStation = shuffledStationData[position % shuffledStationData.length];
+  const currentStation = shuffledStationArray[position % shuffledStationArray.length];
   if (isGameOver) {
     drawGameOver(currentStation);
     return;
@@ -205,6 +208,12 @@ function draw() {
   // Draw background map
   image(mapWithStations, 0, 0);
 
+  // DEV: Draw all stations with labels
+  for (const [id, station] of Object.entries(stationData.data)) {
+    drawLabeledStation(station, true, id);
+  }
+  noLoop();
+
   // Draw current station name in a box
   textAlign(CENTER);
   textSize(40);
@@ -212,7 +221,7 @@ function draw() {
   boxedText(currentStation.stationName.replaceAll('\n', '-'), ...TITLE_COORDS);
 
   // Draw the current score
-  boxedText(`Score: ${successfulStations.length}/${shuffledStationData.length}`, ...SCORE_COORDS);
+  boxedText(`Score: ${successfulStations.length}/${shuffledStationArray.length}`, ...SCORE_COORDS);
 
   // DEV: highlight active station
   // circle(widthFractionToPixel(currentStation.x), heightFractionToPixel(currentStation.y), 15)
